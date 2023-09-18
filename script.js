@@ -13,7 +13,9 @@ players.forEach(function (i) {
 	team1.push(i);
 });
 
-let cap1 = Object.assign({}, person);
+let cap1 = {
+	...person
+};
 
 
 
